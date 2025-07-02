@@ -1,12 +1,9 @@
 # Github Actions CI/CD
 ---
 
-name: checks
+name: Checks
 
-on:
-  push:
-    branches:
-      - main
+on: [push]
 
 jobs:
   test-lint:
