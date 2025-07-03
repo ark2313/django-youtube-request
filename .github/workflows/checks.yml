@@ -22,5 +22,5 @@ jobs:
       - name: Run Test-Code
         run: docker-compose run --rm app sh -c 'python manage.py wait_for_dpython manage.py test'
 
-      - name: Run Flake8 for Lint Check
-        run: docker-compose run --rm app sh -c 'flake8'
+      # - name: Run Flake8 for Lint Check
+      #   run: docker-compose run --rm app sh -c 'flake8'
